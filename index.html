@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <header class="position-fixed w-100 top-0 start-0 bg-white z-3">
+            <div class="container">
+                <div class="row row-1">
+                    <div class="col-9  col-md-10 col-lg-4 col-xl-6 ">
+                        <a href="#" class="header-logo">
+                            <img src="photo/main.svg" class="logo-siz" alt="">
+                        </a>
+                    </div>
+                    <div class="col-3 header-cont col-lg-3 col-xl-2 d-lg-block d-md-none d-none ">
+                        <a href="#">
+                            <img src="photo/phonenumber.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-3 header-cont col-lg-4 col-xl-3  d-lg-block d-none d-md-none ">
+                        <a href="#">
+                            <img src="photo/email (1).svg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-1 header-cont col-lg-1 col-xl-1 ps-5 p-md-0 text-end nav-toggle">
+
+                        <div class="offcanvas offcanvas-top" id="demo">
+                            <div class="offcanvas-header">
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <a class="nav-link nav-active" href="#">Home</a>
+                                <a class="nav-link " href="#">Endoscopic Spine Surgery</a>
+                                <a class="nav-link " href="#">Testimonials</a>
+                                <a class="nav-link " href="#">Contact Us</a>
+
+                                <div class="icons">
+                                    <a href="#">
+                                        <i class="fa-brands fa-facebook link-1 m-lg-0 "></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-brands fa-instagram link-2  m-lg-0"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-brands fa-linkedin-in link-3  m-lg-0"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-brands fa-twitter link-4  m-lg-0 "></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-brands fa-youtube link-5  m-lg-0"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Button to open the offcanvas sidebar -->
+                        <button class="btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+                            <img src="photo/Menu Hambuger icon.svg" class="" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- <div
+                    class="offcanvas offcanvas-start"
+                    data-bs-backdrop="static"
+                    tabindex="-1"
+                    id="staticBackdrop"
+                    aria-labelledby="staticBackdropLabel"
+                >
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="staticBackdropLabel">Offcanvas</h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="offcanvas"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div>
+                            I will not close if you click outside of me.
+                        </div>
+                    </div>
+                </div> -->
+        </header>
+    </section>
+    <!-- *****************section 1*********************** -->
+    <section class="section1">
+        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active slider-img" data-bs-interval="3000">
+                    <img src="photo/slider 1.jpg" class="d-block w-100" alt="..." width="100%" height="582px">
+                </div>
+                <div class="carousel-item slider-img" data-bs-interval="3000">
+                    <img src="photo/Slider 2.jpg" class="d-block w-100" alt="..." width="100%" height="582px">
+                </div>
+                <div class="carousel-item slider-img" data-bs-interval="3000">
+                    <img src="photo/Slider3.jpg" class="d-block w-100" alt="..." width="100%" height="582px">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                data-bs-slide="prev">
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                data-bs-slide="next">
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <!-- *******************section 2 ********************* -->
+    <section>
+        <div class="container">
+            <div class="row row-2">
+                <div class="col-12 col-md-12 col-lg-6 col-xl-6 me-lg-0 p-md-0 ">
+                    <h1 class="first-h1">Adult Endoscopic Spine Surgery</h1>
+                </div>
+                <div class="col-12 col-md-12 col-lg-6 col-xl-6 ps-lg-4 p-md-0">
+                    <h5 class="p-large pt-xl-2">
+                        Endoscopic spine sergery is a mainimally invasive surgical techique used to
+                        treat various spinal condition and disorder.
+                    </h5>
+                    <button class="">About us</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- *********************section 3************************ -->
+    <section>
+        <div class="container">
+            <div class="row row-3 flex-column-reverse flex-md-row gap-lg-2">
+                <div
+                    class="col-12 col-md-12 ps-md-1 ps-0 col-lg-4 ps-lg-0 p-sm-0 m-2 me-lg-4 offset-1 d-flex flex-column ">
+                    <h2 class="p-0 me-xl-5 end-sec">
+                        What is
+                        <span>
+                            Endoscopic
+                            Spine Surgery?
+                        </span>
+                    </h2>
+                    <p>
+                        Endoscopic spine surgery is a minimally invasive surgical technique used to treat various spinal
+                        conditions and disorders. A thin, flexible endoscope is placed into the damaged area through a
+                        series of tiny incisions. A camera and light source are built inside the endoscope, giving the
+                        surgeon a good image of the spinal structures on a display...
+                    </p>
+                    <h4 class="row-3-h4">
+                        Also Read:
+                    </h4>
+                    <ul class="section3-ul">
+                        <li>
+                            <p> Endoscopic vs. Minimally Invasive Spine Surgery</p>
+                        </li>
+                        <li>
+                            <p>How is Endoscopic Spine Surgery Performed?</p>
+                        </li>
+                        <li>
+                            <p>Advantages of Endoscopic Spine Surgery</p>
+                        </li>
+                        <li>
+                            <p>Conditions Treated by Endoscopic Spine Surgery</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-12 pt-md-5 pt-lg-2 col-lg-5">
+                    <img src="photo/spinal surgery.jpg" width="100%" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***************************setion 4******************** -->
+    <section>
+        <div class="container">
+            <h2 class="text-center sectio-4-margin ">
+                We provide
+                <span class="row-3-span">Complete Health-care Solutions</span>
+                for you!
+            </h2>
+            <p class="w-100 w-lg-50 m-auto text-center mt-4 mt-xl-4 p-2 mb-lg-3 mb-xl-1 width">
+                There are many variations of passages available but
+                the majority have suffered alteration
+                in some form, by injected humour, or randomized words.
+            </p>
+            <div class="row justify-content-center mb-5">
+                <div class="card border-0 card-margin card-width" style="width: 18rem;">
+                    <img src="photo/card 1.jpg" width="293px" height=" 230px" class="img-width" alt="...">
+                    <div class="card-body p-0">
+                        <h3 class="mb-3 mt-4">Free Checkup</h3>
+                        <p class="card-text">
+                            Take a look at our round up of the
+                            best shows.
+                        </p>
+                    </div>
+                </div>
+                <div class="card border-0 card-margin card-width" style="width: 18rem;">
+                    <img src="photo/card 3.jpg" width="293px" height=" 230px" width="100%" class="img-width" alt="...">
+                    <div class="card-body p-0">
+                        <h3 class="mb-3 mt-4">Highly Professional Staff </h3>
+                        <p class="card-text">
+                            Take a look at our round up of the
+                            best shows.
+                        </p>
+                    </div>
+                </div>
+                <div class="card border-0 card-margin card-width-sm" style="width: 18rem;">
+                    <img src="photo/card 2.jpg" width="293px" height=" 230px" class="img-width" alt="...">
+                    <div class="card-body p-0">
+                        <h3 class="mb-3 mt-4">Affordable pricing</h3>
+                        <p class="card-text">
+                            Take a look at our round up of the
+                            best shows.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- *****************section 5*********************** -->
+    <section style="background-color: #EFF8FF; margin-top: 60px;">
+        <div class="container">
+            <div class="row row-5 text-center mt-5">
+                <h2>
+                    The Best Medical General
+                    <span class="row-3-span">Practice Care</span>
+                </h2>
+                <p class=" width m-auto p5-padding text-center ">
+                    There are many variations of passages available but the majority have suffered alteration
+                    in some form, by injected humour, or randomized words.
+                </p>
+            </div>
+            <!-- *****cards******** -->
+            <div class="row card-row justify-content-center mt-4 pt-5 pt-md-0">
+                <div class="col-12 col-md-5 col-lg-4 col-xl-3 sec5-card">
+                    <div class="  card m-auto card-2 mt-4 mt-md-0 mb-5 ">
+                        <img src="photo/medical.svg" style="width: 75px;" class="card-img-top m-auto pt-4 s5-logo"
+                            alt="...">
+                        <div class="card-body mb-2 ">
+                            <h5 class="card-title" style="color: rgba(17, 42, 99, 1);">Pediatric Clinic</h5>
+                            <p class="card-text" style="font-size: 16px;">Lorem ipsum dolor sit amet consectetur
+                                Tincidunt sem non in morbi lectus.</p>
+                            <div class="card-body">
+                                <a href="#" class="card-link">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-5 col-lg-4 col-xl-3 sec5-card">
+                    <div class="card m-auto mt-md-0 card-2 mt-4">
+                        <img src="photo/microscoope.svg" style="width: 75px;" class="card-img-top m-auto pt-4 s5-logo"
+                            alt="...">
+                        <div class="card-body mb-2">
+                            <h5 class="card-title" style="color: rgba(17, 42, 99, 1);">Pediatric Clinic</h5>
+                            <p class="card-text" style="font-size: 16px;">Lorem ipsum dolor sit amet consectetur
+                                Tincidunt sem non in morbi lectus.</p>
+                            <div class="card-body">
+                                <a href="#" class="card-link">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-5 col-lg-4 col-xl-3 sec5-card">
+                    <div class=" card m-auto m-md-0 card-2 mt-4">
+                        <img src="photo/childern.svg" style="width: 75px;" class="card-img-top m-auto pt-4 s5-logo"
+                            alt="...">
+                        <div class="card-body mb-2">
+                            <h5 class="card-title" style="color: rgba(17, 42, 99, 1);">Pediatric Clinic</h5>
+                            <p class="card-text" style="font-size: 16px;">Lorem ipsum dolor sit amet consectetur
+                                Tincidunt sem non in morbi lectus.</p>
+                            <div class="card-body">
+                                <a href="#" class="card-link">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="ol-12 col-md-5 col-lg-4 col-xl-3 sec5-card">
+                    <div class="card card-2 mt-4 mt-md-0">
+                        <img src="photo/heart.svg" style="width: 75px;" class="card-img-top m-auto pt-4 s5-logo"
+                            alt="...">
+                        <div class="card-body mb-3 mb-md-2">
+                            <h5 class="card-title" style="color: rgba(17, 42, 99, 1);">Pediatric Clinic</h5>
+                            <p class="card-text" style="font-size: 16px;">Lorem ipsum dolor sit amet consectetur
+                                Tincidunt sem non in morbi lectus.</p>
+                            <div class="card-body">
+                                <a href="#" class="card-link">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- 
+************************seciton-6^^^^^^^^^^^^^^^^^^^^^^^ -->
+    <section>
+        <div class="container">
+            <div class="row row-6 ">
+                <div class=" col-12 col-md-12 col-xl-6  pe-md-2 pe-lg-3 pe-xl-2 ">
+                    <div class="wrapper">
+                        <video id="myVideo" class="video video-height" poster="photo/poster-img.jpg "
+                            src="photo/hospital .mp4" style="object-fit: cover; border-radius: 5px ; margin: auto;"
+                            width="100%">
+                        </video>
+                        <span id="video-button" onclick="playVid(this)"><i class="fa-solid fa-play"></i></span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-xl-6 mt-4 mt-md-5 mt-lg-0 video-content">
+                    <div class="ps-1 ps-md-5 ps-lg-2 pe-2 p-xl-4 border   rounded border-secondary vid-sec">
+                        <h2 class="p-3 ">
+                            Medical
+                            <span class="row-3-span ">Service and Health-care</span>
+                            That you can trust
+                        </h2>
+                        <p class="p-3">
+                            There are many variations of passages available but the majority have suffered
+                            alteration some form,by injected humor, or randomized
+                            words.
+                        </p>
+                        <div class="d-block d-md-flex gap-5 pe-5 pe-lg-0 ul-div video-sec-ul">
+                            <ul class="">
+                                <li>
+                                    <p style="color:rgba(17, 42, 99, 1)">Emergency Care</p>
+                                </li>
+                                <li>
+                                    <p>Ambluance Service</p>
+                                </li>
+                                <li>
+                                    <p>General Medical</p>
+                                </li>
+                                <li>
+                                    <p>24/7 open support</p>
+                                </li>
+                            </ul>
+                            <ul class="ps-4 ps-md-5 ms-2 ms-md-0 vid-sec-ul">
+                                <li>
+                                    <p>Digital Labortary</p>
+                                </li>
+                                <li>
+                                    <p>Home service</p>
+                                </li>
+                                <li>
+                                    <p>Complete Lab service</p>
+                                </li>
+                                <li>
+                                    <p>Medical Propessionals</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    </section>
+    <!-- *******************section 7******************** -->
+    <section>
+        <div class="container">
+            <div class="row row-7 ">
+                <div class="col-12 col-md-6 col-lg-3 p-md-2 p-2 order-1 order-lg-1  order-md-1  ">
+                    <img src="photo/form1.jpg" width="100%" height="100%" class="form-img">
+                </div>
+                <div class="col-12 col-md-12 col-lg-6 text-center px-md-0 px-lg-4 py-2 order-2  order-lg-2 order-md-3 ">
+                    <div class="form-color  px-2 px-md-3 px-lg-4 py-4">
+                        <h2 class=" ps-2 pe-3 pt-lg-2 pt-xl-5 form-heading ">
+                            Improving the Quality of Your Life!
+                            <span>Conlust With Us</span>
+                        </h2>
+                        <form class="p-4 mt-xl-5" action="/action_page.php">
+                            <div class="row flex-column flex-md-row g-3 imp-inp">
+                                <div class="col me-0 me-lg-0 mb-4 first-image inp1">
+                                    <input class="form-control shadow-none rounded-0 w-100 " type="text" id="fname"
+                                        name="fname" placeholder="Fisrt Name">
+                                </div>
+                                <div class="col mb-4 inp">
+                                    <input type="text" class="form-control w-100 shadow-none rounded-0"
+                                        placeholder="Last name" aria-label="Last name">
+                                </div>
+                            </div>
+                            <div class="row g-3 flex-column flex-md-row imp-inp">
+                                <div class="col mb-4 inp1">
+                                    <input class="form-control shadow-none rounded-0 w-100" type="email" name="fname"
+                                        placeholder="Email">
+                                </div>
+                                <div class="col mb-4 inp">
+                                    <input type="tel" class="form-control w-100 shadow-none rounded-0  "
+                                        placeholder=" Phone Number">
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <input type="text" class="form-control w-100 shadow-none rounded-0"
+                                    placeholder="What is your location?">
+                            </div>
+                            <button type="button" class="btn btn-primary btn-lg r7-button">Send Us</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 p-md-2 p-2 order-3 order-md-2 order-lg-3">
+                    <img src="photo/form2.jpg" width="100%" height="100%" alt="" class="form-img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ******************section 8************ -->
+    <!-- <section>
+  <div class="container">
+    <h2 class="text-center space-1">News and Blog</h2>
+    <div class="row pt-5">
+      <div class="col-6"><img src="photo/belog1.jpg" width="100%" alt="">
+        <h3 class="mt-4">Complex Spinal Surgeries Now Made Easy and Reliable.</h3>
+      <p style="font-size: 16px; font-weight: 500;">Lorem ipsum dolor sit amet consectetur. Imperdiet adipiscing nisi tincidunt mauris mattis nisi malesuada
+        sed ac. Id sit ornare facilisis vel. Nulla eget volutpat et velit cursus aenean ultrices condimentum.</p>
+      <a href="#" class="mt-5" style="color: rgba(49, 144, 228, 1) ;">Read More</a></div>
+      <div class="col-6"><img src="photo/belog2.jpg" width="100%" alt="">    <h3 class="mt-4">Now Maintain and Retrieve Your Health Records Easily Online.</h3>
+        <p style="font-size: 16px; font-weight: 500;">Lorem ipsum dolor sit amet consectetur. Imperdiet adipiscing nisi tincidunt mauris mattis nisi malesuada
+          sed ac. Id sit ornare facilisis vel. Nulla eget volutpat et velit cursus aenean ultrices condimentum.</p>
+        <a href="#" style="color: rgba(49, 144, 228, 1) ;">Read More</a></div>
+
+    </div>
+  </div>
+</section> -->
+    <section class="blog-section d-sm-block d-none">
+        <div class="container">
+            <h2 class="text-center space-1">News and Blog</h2>
+            <div id="carouselExampleDark" class="carousel d-sm-block d-none carousel-dark slide"
+                data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <div class="row row-gap-sm-5 pt-5">
+                            <div class="col-12 col-md-6 slider-sec">
+                                <img src="photo/belog1.jpg" width="100%" alt="">
+                                <h3 class="mt-4">Complex Spinal Surgeries Now Made Easy and Reliable.</h3>
+                                <p style="font-size: 16px; font-weight: 500;">
+                                    Lorem ipsum dolor sit amet consectetur. Imperdiet adipiscing nisi tincidunt mauris
+                                    mattis nisi malesuada
+                                    sed ac. Id sit ornare facilisis vel. Nulla eget volutpat et velit cursus aenean
+                                    ultrices condimentum.
+                                </p>
+                                <a href="#" class="mt-5" style="color: rgba(49, 144, 228, 1) ;">Read More</a>
+                            </div>
+                            <div class="col-12 col-md-6 slider-sec">
+                                <img src="photo/belog2.jpg" width="100%" alt="">
+                                <h3 class="mt-4">Now Maintain and Retrieve Your Health Records Easily Online.</h3>
+                                <p style="font-size: 16px; font-weight: 500;">
+                                    Lorem ipsum dolor sit amet consectetur. Imperdiet adipiscing nisi tincidunt mauris
+                                    mattis nisi malesuada
+                                    sed ac. Id sit ornare facilisis vel. Nulla eget volutpat et velit cursus aenean
+                                    ultrices condimentum.
+                                </p>
+                                <a href="#" style="color: rgba(49, 144, 228, 1) ;">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item " data-bs-interval="10000">
+                        <div class="row pt-5">
+                            <div class="col-12 col-md-6 slider-sec">
+                                <img src="photo/belog1.jpg" width="100%" alt="">
+                                <h3 class="mt-4">Complex Spinal Surgeries Now Made Easy and Reliable.</h3>
+                                <p style="font-size: 16px; font-weight: 500;">
+                                    Lorem ipsum dolor sit amet consectetur. Imperdiet adipiscing nisi tincidunt mauris
+                                    mattis nisi malesuada
+                                    sed ac. Id sit ornare facilisis vel. Nulla eget volutpat et velit cursus aenean
+                                    ultrices condimentum.
+                                </p>
+                                <a href="#" class="mt-5" style="color: rgba(49, 144, 228, 1) ;">Read More</a>
+                            </div>
+                            <div class="col-12 col-md-6 slider-sec">
+                                <img src="photo/belog2.jpg" width="100%" alt="">
+                                <h3 class="mt-4">Now Maintain and Retrieve Your Health Records Easily Online.</h3>
+                                <p style="font-size: 16px; font-weight: 500;">
+                                    Lorem ipsum dolor sit amet consectetur. Imperdiet adipiscing nisi tincidunt mauris
+                                    mattis nisi malesuada
+                                    sed ac. Id sit ornare facilisis vel. Nulla eget volutpat et velit cursus aenean
+                                    ultrices condimentum.
+                                </p>
+                                <a href="#" style="color: rgba(49, 144, 228, 1) ;">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item " data-bs-interval="10000">
+                        <div class="row pt-5">
+                            <div class="col-12 col-md-6 slider-sec">
+                                <img src="photo/belog1.jpg" width="100%" alt="">
+                                <h3 class="mt-4">Complex Spinal Surgeries Now Made Easy and Reliable.</h3>
+                                <p style="font-size: 16px; font-weight: 500;">
+                                    Lorem ipsum dolor sit amet consectetur. Imperdiet adipiscing nisi tincidunt mauris
+                                    mattis nisi malesuada
+                                    sed ac. Id sit ornare facilisis vel. Nulla eget volutpat et velit cursus aenean
+                                    ultrices condimentum.
+                                </p>
+                                <a href="#" class="mt-" style="color: rgba(49, 144, 228, 1) ;">Read More</a>
+                            </div>
+                            <div class="col-12 col-md-6 slider-sec">
+                                <img src="photo/belog2.jpg" width="100%" alt="">
+                                <h3 class="mt-4">Now Maintain and Retrieve Your Health Records Easily Online.</h3>
+                                <p style="font-size: 16px; font-weight: 500;">
+                                    Lorem ipsum dolor sit amet consectetur. Imperdiet adipiscing nisi tincidunt mauris
+                                    mattis nisi malesuada
+                                    sed ac. Id sit ornare facilisis vel. Nulla eget volutpat et velit cursus aenean
+                                    ultrices condimentum.
+                                </p>
+                                <a href="#" style="color: rgba(49, 144, 228, 1) ;">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-indicators position-relative  margin-top-1 mb-0">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+            </div>
+            <div id="carouselExampleDark" class="carousel carousel-dark d-sm-none d-block slide"
+                data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <div class="row row-gap-sm-5 pt-5">
+                            <div class="col-12 col-md-6 slider-sec">
+                                <img src="photo/belog1.jpg" width="100%" alt="">
+                                <h3 class="mt-4">Complex Spinal Surgeries Now Made Easy and Reliable.</h3>
+                                <p style="font-size: 16px; font-weight: 500;">
+                                    Lorem ipsum dolor sit amet consectetur. Imperdiet adipiscing nisi tincidunt mauris
+                                    mattis nisi malesuada
+                                    sed ac. Id sit ornare facilisis vel. Nulla eget volutpat et velit cursus aenean
+                                    ultrices condimentum.
+                                </p>
+                                <a href="#" class="mt-5" style="color: rgba(49, 144, 228, 1) ;">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <div class="row row-gap-sm-5 pt-5">
+                            <div class="col-12 col-md-6 slider-sec">
+                                <img src="photo/belog1.jpg" width="100%" alt="">
+                                <h3 class="mt-4">Complex Spinal Surgeries Now Made Easy and Reliable.</h3>
+                                <p style="font-size: 16px; font-weight: 500;">
+                                    Lorem ipsum dolor sit amet consectetur. Imperdiet adipiscing nisi tincidunt mauris
+                                    mattis nisi malesuada
+                                    sed ac. Id sit ornare facilisis vel. Nulla eget volutpat et velit cursus aenean
+                                    ultrices condimentum.
+                                </p>
+                                <a href="#" class="mt-5" style="color: rgba(49, 144, 228, 1) ;">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <div class="row row-gap-sm-5 pt-5">
+                            <div class="col-12 col-md-6 slider-sec">
+                                <img src="photo/belog1.jpg" width="100%" alt="">
+                                <h3 class="mt-4">Complex Spinal Surgeries Now Made Easy and Reliable.</h3>
+                                <p style="font-size: 16px; font-weight: 500;">
+                                    Lorem ipsum dolor sit amet consectetur. Imperdiet adipiscing nisi tincidunt mauris
+                                    mattis nisi malesuada
+                                    sed ac. Id sit ornare facilisis vel. Nulla eget volutpat et velit cursus aenean
+                                    ultrices condimentum.
+                                </p>
+                                <a href="#" class="mt-5" style="color: rgba(49, 144, 228, 1) ;">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <div class="row row-gap-sm-5 pt-5">
+                            <div class="col-12 col-md-6 slider-sec">
+                                <img src="photo/belog1.jpg" width="100%" alt="">
+                                <h3 class="mt-4">Complex Spinal Surgeries Now Made Easy and Reliable.</h3>
+                                <p style="font-size: 16px; font-weight: 500;">
+                                    Lorem ipsum dolor sit amet consectetur. Imperdiet adipiscing nisi tincidunt mauris
+                                    mattis nisi malesuada
+                                    sed ac. Id sit ornare facilisis vel. Nulla eget volutpat et velit cursus aenean
+                                    ultrices condimentum.
+                                </p>
+                                <a href="#" class="mt-5" style="color: rgba(49, 144, 228, 1) ;">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <div class="row row-gap-sm-5 pt-5">
+                            <div class="col-12 col-md-6 slider-sec">
+                                <img src="photo/belog1.jpg" width="100%" alt="">
+                                <h3 class="mt-4">Complex Spinal Surgeries Now Made Easy and Reliable.</h3>
+                                <p style="font-size: 16px; font-weight: 500;">
+                                    Lorem ipsum dolor sit amet consectetur. Imperdiet adipiscing nisi tincidunt mauris
+                                    mattis nisi malesuada
+                                    sed ac. Id sit ornare facilisis vel. Nulla eget volutpat et velit cursus aenean
+                                    ultrices condimentum.
+                                </p>
+                                <a href="#" class="mt-5" style="color: rgba(49, 144, 228, 1) ;">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <div class="row row-gap-sm-5 pt-5">
+                            <div class="col-12 col-md-6 slider-sec">
+                                <img src="photo/belog1.jpg" width="100%" alt="">
+                                <h3 class="mt-4">Complex Spinal Surgeries Now Made Easy and Reliable.</h3>
+                                <p style="font-size: 16px; font-weight: 500;">
+                                    Lorem ipsum dolor sit amet consectetur. Imperdiet adipiscing nisi tincidunt mauris
+                                    mattis nisi malesuada
+                                    sed ac. Id sit ornare facilisis vel. Nulla eget volutpat et velit cursus aenean
+                                    ultrices condimentum.
+                                </p>
+                                <a href="#" class="mt-5" style="color: rgba(49, 144, 228, 1) ;">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="carousel-indicators position-relative  margin-top-1 mb-0">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="blog-section d-sm-none d-block">
+        <div class="container">
+            <h2 class="text-center space-1">News and Blog</h2>
+
+            <div id="carouselExampleDark" class="carousel carousel-dark d-sm-none d-block slide"
+                data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <div class=" pt-5">
+                            <div class=" slider-sec">
+                                <img src="photo/belog1.jpg" width="100%" alt="">
+                                <h3 class="mt-4">Complex Spinal Surgeries Now Made Easy and Reliable.</h3>
+                                <p style="font-size: 16px; font-weight: 500;">
+                                    Lorem ipsum dolor sit amet consectetur. Imperdiet adipiscing nisi tincidunt mauris
+                                    mattis nisi malesuada
+                                    sed ac. Id sit ornare facilisis vel. Nulla eget volutpat et velit cursus aenean
+                                    ultrices condimentum.
+                                </p>
+                                <a href="#" class="mt-5" style="color: rgba(49, 144, 228, 1) ;">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item " data-bs-interval="3000">
+                        <div class=" pt-5">
+                            <div class=" slider-sec">
+                                <img src="photo/belog1.jpg" width="100%" alt="">
+                                <h3 class="mt-4">Complex Spinal Surgeries Now Made Easy and Reliable.</h3>
+                                <p style="font-size: 16px; font-weight: 500;">
+                                    Lorem ipsum dolor sit amet consectetur. Imperdiet adipiscing nisi tincidunt mauris
+                                    mattis nisi malesuada
+                                    sed ac. Id sit ornare facilisis vel. Nulla eget volutpat et velit cursus aenean
+                                    ultrices condimentum.
+                                </p>
+                                <a href="#" class="mt-5" style="color: rgba(49, 144, 228, 1) ;">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item " data-bs-interval="3000">
+                        <div class=" pt-5">
+                            <div class=" slider-sec">
+                                <img src="photo/belog1.jpg" width="100%" alt="">
+                                <h3 class="mt-4">Complex Spinal Surgeries Now Made Easy and Reliable.</h3>
+                                <p style="font-size: 16px; font-weight: 500;">
+                                    Lorem ipsum dolor sit amet consectetur. Imperdiet adipiscing nisi tincidunt mauris
+                                    mattis nisi malesuada
+                                    sed ac. Id sit ornare facilisis vel. Nulla eget volutpat et velit cursus aenean
+                                    ultrices condimentum.
+                                </p>
+                                <a href="#" class="mt-5" style="color: rgba(49, 144, 228, 1) ;">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item " data-bs-interval="3000">
+                        <div class=" pt-5">
+                            <div class=" slider-sec">
+                                <img src="photo/belog1.jpg" width="100%" alt="">
+                                <h3 class="mt-4">Complex Spinal Surgeries Now Made Easy and Reliable.</h3>
+                                <p style="font-size: 16px; font-weight: 500;">
+                                    Lorem ipsum dolor sit amet consectetur. Imperdiet adipiscing nisi tincidunt mauris
+                                    mattis nisi malesuada
+                                    sed ac. Id sit ornare facilisis vel. Nulla eget volutpat et velit cursus aenean
+                                    ultrices condimentum.
+                                </p>
+                                <a href="#" class="mt-5" style="color: rgba(49, 144, 228, 1) ;">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item " data-bs-interval="3000">
+                        <div class=" pt-5">
+                            <div class=" slider-sec">
+                                <img src="photo/belog1.jpg" width="100%" alt="">
+                                <h3 class="mt-4">Complex Spinal Surgeries Now Made Easy and Reliable.</h3>
+                                <p style="font-size: 16px; font-weight: 500;">
+                                    Lorem ipsum dolor sit amet consectetur. Imperdiet adipiscing nisi tincidunt mauris
+                                    mattis nisi malesuada
+                                    sed ac. Id sit ornare facilisis vel. Nulla eget volutpat et velit cursus aenean
+                                    ultrices condimentum.
+                                </p>
+                                <a href="#" class="mt-5" style="color: rgba(49, 144, 228, 1) ;">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item " data-bs-interval="3000">
+                        <div class=" pt-5">
+                            <div class=" slider-sec">
+                                <img src="photo/belog1.jpg" width="100%" alt="">
+                                <h3 class="mt-4">Complex Spinal Surgeries Now Made Easy and Reliable.</h3>
+                                <p style="font-size: 16px; font-weight: 500;">
+                                    Lorem ipsum dolor sit amet consectetur. Imperdiet adipiscing nisi tincidunt mauris
+                                    mattis nisi malesuada
+                                    sed ac. Id sit ornare facilisis vel. Nulla eget volutpat et velit cursus aenean
+                                    ultrices condimentum.
+                                </p>
+                                <a href="#" class="mt-5" style="color: rgba(49, 144, 228, 1) ;">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="carousel-indicators position-relative  margin-top-1 mb-0">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5"
+                        aria-label="Slide 6"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ******************footer************** -->
+    <footer style="background-color:rgb(88, 165, 234); margin-top: 150px;">
+        <div class="container">
+            <div class="row row-gap-4 footer-row">
+                <div class="col-12 col-md-12 col-lg-12 col-xl-4 text-centr ">
+                    <a href="#"><img src="photo/mainfooterLogo.svg" class="logo-siz-f" alt=""></a>
+                    <h4 class="pt-lg-5 pt-md-4 footer-time " style="color: white; font-size: 22px;">Working Hours:
+                        Monday-Friday
+                        <br> 08:30 to 04:30 PM
+                        </h3>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-xl-3 column1- mb-5 ">
+                    <h3>Main Menu</h3>
+                    <a href="#">
+                        <p>Home</p>
+                    </a>
+                    <br>
+                    <a href="#">
+                        <p>Endoscopic Spine Surgery</p>
+                    </a>
+                    <br>
+                    <a href="#">
+                        <p>About Us</p>
+                    </a>
+                    <br>
+                    <a href="#">
+                        <p>Treatment</p>
+                    </a>
+                    <br>
+                    <a href="#">
+                        <p>Patient</p>
+                    </a>
+                    <br>
+                    <a href="#">
+                        <p>Contact</p>
+                    </a>
+                    <br>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-xl-3 column2- mb-5">
+                    <h3>Blog Categories</h3>
+                    <a href="#">
+                        <p>Spine Health</p>
+                    </a>
+                    <br>
+                    <a href="#">
+                        <p>Cardiology</p>
+                    </a>
+                    <br>
+                    <a href="#">
+                        <p>Surgeries</p>
+                    </a>
+                    <br>
+                    <a href="#">
+                        <p>Health Equipment</p>
+                    </a>
+                    <br>
+                    <a href="#">
+                        <p>Health Policies</p>
+                    </a>
+                    <br>
+                    <a href="#">
+                        <p>Docotrs</p>
+                    </a>
+                    <br>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-xl-2 footer-h3 mb-5">
+                    <h3>Main Menu</h3>
+                    <a href="#">
+                        <p class="m-0" style="color: white; font-weight: 700;">Address:
+                            </h4>
+                            <p class="p-0 m-0">plantation,Florida</p>
+                    </a>
+                    <br>
+                    <a href="#">
+                        <p class="m-0" style="color: white; font-weight: 700;">Email:
+                            </h3>
+                            <p> info@johanasgharmd.com</p>
+                    </a>
+                    <br>
+                    <a href="#">
+                        <p class="m-0" style="color: white; font-weight: 700;">phone:</p>
+                        <p>(945)223-5483</p>
+                    </a>
+                    <br>
+                    <a href="#">
+                        <a href="#">
+                            <i class="fa-brands fa-facebook link-1 m-lg-0 "></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-instagram link-2  m-lg-0"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin-in link-3  m-lg-0"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter link-4  m-lg-0 "></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-youtube link-5  m-lg-0"></i>
+                        </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        let vid = document.getElementById("myVideo");
+
+        function playVid(e) {
+            if (vid.paused) {
+                vid.play();
+                e.style.opacity = "0"
+            } else {
+                vid.pause();
+                e.style.opacity = "1"
+            }
+        }  
+    </script>
+
+</body>
+
+</html>
